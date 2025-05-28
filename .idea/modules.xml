@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/_01_Intro/_01_Intro.iml" filepath="$PROJECT_DIR$/_01_Intro/_01_Intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_02_arrays/_02_arrays.iml" filepath="$PROJECT_DIR$/_02_arrays/_02_arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03_linked_list/_03_linked_list.iml" filepath="$PROJECT_DIR$/_03_linked_list/_03_linked_list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_04_stack/_04_stack.iml" filepath="$PROJECT_DIR$/_04_stack/_04_stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_05_queue/_05_queue.iml" filepath="$PROJECT_DIR$/_05_queue/_05_queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06_tree/_06_tree.iml" filepath="$PROJECT_DIR$/_06_tree/_06_tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_07_graphs/_07_graphs.iml" filepath="$PROJECT_DIR$/_07_graphs/_07_graphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_08_priority_queue_and_heaps/_08_priority_queue_and_heaps.iml" filepath="$PROJECT_DIR$/_08_priority_queue_and_heaps/_08_priority_queue_and_heaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_09_recursion/_09_recursion.iml" filepath="$PROJECT_DIR$/_09_recursion/_09_recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_10_searching/_10_searching.iml" filepath="$PROJECT_DIR$/_10_searching/_10_searching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_11_sorting/_11_sorting.iml" filepath="$PROJECT_DIR$/_11_sorting/_11_sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_12_strings/_12_strings.iml" filepath="$PROJECT_DIR$/_12_strings/_12_strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_13_trie_data_structure/_13_trie_data_structure.iml" filepath="$PROJECT_DIR$/_13_trie_data_structure/_13_trie_data_structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_14_hashing/_14_hashing.iml" filepath="$PROJECT_DIR$/_14_hashing/_14_hashing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_15_dynamic_programming/_15_dynamic_programming.iml" filepath="$PROJECT_DIR$/_15_dynamic_programming/_15_dynamic_programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06_tree/binary_search_tree/binary_search_tree.iml" filepath="$PROJECT_DIR$/_06_tree/binary_search_tree/binary_search_tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_06_tree/binary_tree/binary_tree.iml" filepath="$PROJECT_DIR$/_06_tree/binary_tree/binary_tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03_linked_list/circular_linked_list/circular_linked_list.iml" filepath="$PROJECT_DIR$/_03_linked_list/circular_linked_list/circular_linked_list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03_linked_list/doubly_linked_list/doubly_linked_list.iml" filepath="$PROJECT_DIR$/_03_linked_list/doubly_linked_list/doubly_linked_list.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dsa_in_java.iml" filepath="$PROJECT_DIR$/.idea/dsa_in_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_08_priority_queue_and_heaps/heaps/heaps.iml" filepath="$PROJECT_DIR$/_08_priority_queue_and_heaps/heaps/heaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_08_priority_queue_and_heaps/priority_queue/priority_queue.iml" filepath="$PROJECT_DIR$/_08_priority_queue_and_heaps/priority_queue/priority_queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03_linked_list/singly_linked_list/singly_linked_list.iml" filepath="$PROJECT_DIR$/_03_linked_list/singly_linked_list/singly_linked_list.iml" />
     </modules>
   </component>
 </project>
