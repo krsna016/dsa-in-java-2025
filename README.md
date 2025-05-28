@@ -27,7 +27,3 @@ Each topic contains:
 ---
 ## 📄 License
 MIT License. You’re free to use, learn, and evolve. Just give credits if you fork or build upon.
-
----
-
-💬 *“Code DSA like a developer, not a student.”*
