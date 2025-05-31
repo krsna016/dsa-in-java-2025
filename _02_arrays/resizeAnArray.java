@@ -7,7 +7,8 @@ public class resizeAnArray {
         int[] resized = new int[capacity];
         for (int i = 0; i < arr.length; i++)
             resized[i] = arr[i];
-        return resized;
+        arr = resized;
+        return arr;
     }
     public static void main(String[] args) {
         int[] arr = {1,2,4,5};
