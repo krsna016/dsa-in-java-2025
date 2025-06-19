@@ -23,6 +23,10 @@ public class deleteFirstNode {
     }
 
     public void delEleAtBegin() {
+        if(head == null) {
+            return;
+        }
+
         ListNode temp = head;
         head = head.next;
         temp.next = null;

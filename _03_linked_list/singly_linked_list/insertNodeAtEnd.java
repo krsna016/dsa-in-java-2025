@@ -26,6 +26,12 @@ public class insertNodeAtEnd {
 
     public void insertAtEnd(int data) {
         ListNode newNode = new ListNode(data);
+
+        if (head == null) {
+            head = newNode;
+            return;
+        }
+
         ListNode current = head;
         while (current.next != null) {
             current = current.next;

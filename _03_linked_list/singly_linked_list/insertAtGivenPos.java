@@ -35,14 +35,13 @@ public class insertAtGivenPos {
         }
 
         int count = 0;
-        ListNode current = head;
+        ListNode previous = head;
         while (count < position-2) {
-            current = current.next;
+            previous = previous.next;
             count++;
         }
-
-        newNode.next = current.next;
-        current.next = newNode;
+        newNode.next = previous.next;
+        previous.next = newNode;
     }
 
 

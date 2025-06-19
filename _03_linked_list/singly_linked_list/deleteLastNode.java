@@ -24,12 +24,24 @@ public class deleteLastNode {
 
 
     public void deleteLast() {
-        ListNode current = head;
-
-        while (current.next.next != null) {
-            current = current.next;
+        if (head == null || head.next == null) {
+            return;
         }
-        current.next = null;
+
+//        ListNode current = head;
+//        ListNode previous = null;
+//        while (current.next != null) {
+//            previous = current;
+//            current = current.next;
+//        }
+//        previous.next = null;
+
+        // Also,
+        ListNode previous = head;
+        while (previous.next.next != null) {
+            previous = previous.next;
+        }
+        previous.next = null;
     }
 
 

@@ -1,49 +1,43 @@
 package _03_linked_list.singly_linked_list;
 
-public class DeleteAtAnyPos {
+public class nthNodeFromEnd {
 
     private ListNode head;
+
     public static class ListNode {
         private int data;
         private ListNode next;
+
         public ListNode(int data) {
             this.data = data;
             this.next = null;
         }
     }
 
-    public void printEle() {
+    public int getLen() {
+        int count = 1;
         ListNode current = head;
-        while (current != null) {
-            System.out.print(current.data + " -> ");
-            current = current.next;
-        }
-        System.out.println("null");
-    }
-
-    public void delAnyPos(int position) {
-
-        if (head == null) {
-            return;
-        }
-
-        if (position == 1) {
-            head = head.next;
-            return;
-        }
-
-        int count = 0;
-        ListNode current = head;
-        while (count < position-2) {
+        while (current.next != null) {
             current = current.next;
             count++;
         }
-        current.next.next = null;
-        current.next = current.next.next;
+        return count;
+    }
+
+    public int findNFromEnd(int n) {
+        int find = getLen() - n + 1;
+        int count = 0;
+
+        ListNode current = head;
+        while (count != (find-1)) {
+            current = current.next;
+            count++;
+        }
+        return current.data;
     }
 
     public static void main(String[] args) {
-        DeleteAtAnyPos sll = new DeleteAtAnyPos();
+        nthNodeFromEnd sll = new nthNodeFromEnd();
         sll.head = new ListNode(10);
         ListNode second = new ListNode(20);
         ListNode third = new ListNode(30);
@@ -53,13 +47,8 @@ public class DeleteAtAnyPos {
         second.next = third;
         third.next = forth;
 
-        // Lets index = 0 be the 1st Position
-        sll.printEle();
-        sll.delAnyPos(3);
-        sll.printEle();
-        sll.delAnyPos(1);
-        sll.printEle();
-        sll.delAnyPos(1);
-        sll.printEle();
+        System.out.println(sll.findNFromEnd(3));
+        System.out.println(sll.findNFromEnd(2));
+        System.out.println(sll.findNFromEnd(1 ));
     }
 }
