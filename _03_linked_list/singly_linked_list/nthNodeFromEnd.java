@@ -14,26 +14,20 @@ public class nthNodeFromEnd {
         }
     }
 
-    public int getLen() {
-        int count = 1;
-        ListNode current = head;
-        while (current.next != null) {
-            current = current.next;
-            count++;
-        }
-        return count;
-    }
 
     public int findNFromEnd(int n) {
-        int find = getLen() - n + 1;
+        ListNode mainPtr = head;
+        ListNode refPtr = head;
         int count = 0;
-
-        ListNode current = head;
-        while (count != (find-1)) {
-            current = current.next;
+        while (count < n) {
+            refPtr = refPtr.next;
             count++;
         }
-        return current.data;
+        while (refPtr != null) {
+            refPtr = refPtr.next;
+            mainPtr = mainPtr.next;
+        }
+        return mainPtr.data;
     }
 
     public static void main(String[] args) {

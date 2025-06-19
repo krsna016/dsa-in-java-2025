@@ -14,21 +14,30 @@ public class insertInSortedList {
         }
     }
 
-    public void insertInSorted(int data) {
-        ListNode newNode = new ListNode(data);
+    public void printList() {
         ListNode current = head;
-        while(current != null) {
-            if (newNode.data <= current.data) {
-                newNode.next = current;
-                head = newNode;
-                return;
-            } else if (newNode.data > current.data && newNode.data < current.next.data) {
-                newNode.next = current.next;
-                current.next = newNode;
-                return;
-            }
+        while (current != null) {
+            System.out.print(current.data + " -> ");
             current = current.next;
         }
+        System.out.println("null");
+    }
+
+    public void insertInSorted(int data) {
+        ListNode newNode = new ListNode(data);
+        // Case 1: Insert at beginning or empty list
+        if (head == null || data <= head.data) {
+            newNode.next = head;
+            head = newNode;
+            return;
+        }
+        // Case 2: Insert somewhere in the middle or end
+        ListNode current = head;
+        while (current.next != null && current.next.data < data) {
+            current = current.next;
+        }
+        newNode.next = current.next;
+        current.next = newNode;
     }
 
 
@@ -45,5 +54,6 @@ public class insertInSortedList {
 
         sll.insertInSorted(30);
         sll.insertInSorted(100);
+        sll.printList();
     }
 }

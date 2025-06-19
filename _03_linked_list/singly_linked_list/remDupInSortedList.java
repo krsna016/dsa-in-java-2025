@@ -13,9 +13,18 @@ public class remDupInSortedList {
         }
     }
 
+    public void displayEle() {
+        ListNode current = head;
+        while (current != null) {
+            System.out.print(current.data + " -> ");
+            current = current.next;
+        }
+        System.out.println("null");
+    }
+
     public void removeDuplicate() {
         ListNode current = head;
-        while (current.next != null) {
+        while (current.next != null && current.next != null) {
             if (current.data == current.next.data) {
                 ListNode temp = current.next;
                 current.next = current.next.next;
@@ -39,5 +48,6 @@ public class remDupInSortedList {
         forth.next = fifth;
 
         sll.removeDuplicate();
+        sll.displayEle();
     }
 }
