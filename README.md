@@ -9,39 +9,39 @@ Professional engineering repository configurations deployed inside your GitHub p
 
 ---
 
-## 📝 Overview & Core Description
+## Overview & Core Description
 
 Welcome to **DSA in Java 2025** — a clean, topic-wise, professional repository to master **Data Structures and Algorithms (DSA)** using Java. This repo is tailored for interviews, coding challenges, and academic excellence.
 
 ---
 
-## 📌 Project Goals
+## Project Goals
 
-- 🚀 Master core DSA concepts in Java
-- ✅ Clean, modular, topic-wise structure
-- 💼 Build problem-solving muscle for top tech interviews
-- 📈 Practice readable, scalable Java code
-- 📘 Ideal for B.Tech CS, GATE prep, and Java coders
+- Master core DSA concepts in Java
+- Clean, modular, topic-wise structure
+- Build problem-solving muscle for top tech interviews
+- Practice readable, scalable Java code
+- Ideal for B.Tech CS, GATE prep, and Java coders
 
 ---
 Each topic contains:
-- ✅ Intuitive Java implementations
-- ✅ Step-by-step comments
-- ✅ Ready-to-practice examples
+- Intuitive Java implementations
+- Step-by-step comments
+- Ready-to-practice examples
  
 ---
-## 🛠️ Tech Used
+## Tech Used
 - Java 17+
 - IntelliJ / VS Code
 - GitHub Version Control
 
 ---
-## 📄 License
+## License
 MIT License. You’re free to use, learn, and evolve. Just give credits if you fork or build upon.
 
 ---
 
-## 🏛️ System Design & Folder Structure
+## System Design & Folder Structure
 ```text
 .github/                  # CI/CD pipelines, Dependabot, and Issue/PR schemas
 .editorconfig             # Unified file formatting configuration
@@ -58,14 +58,14 @@ SECURITY.md               # Responsible vulnerability disclosures
 
 ---
 
-## 🛠️ Tooling & Tech Stack
+## Tooling & Tech Stack
 - **Primary Environment:** Python runtime.
 - **Workflow Automation:** GitHub Actions CI, Dependabot, and CodeQL.
 - **Standards Checkers:** Git `pre-commit` hook validations.
 
 ---
 
-## ⚙️ Quickstart & Local Setup
+## Quickstart & Local Setup
 1. Clone this repository locally:
    ```bash
    git clone https://github.com/krsna016/dsa-in-java-2025.git
@@ -78,10 +78,10 @@ SECURITY.md               # Responsible vulnerability disclosures
 
 ---
 
-## 📋 Security & Responsible Disclosure
+## Security & Responsible Disclosure
 For details on disclosing vulnerabilities or hardcoded secrets, refer directly to our [SECURITY.md](SECURITY.md) guidelines.
 
 ---
 
-## 📜 License
+## License
 This repository is licensed under the permissive **MIT License**. For details, see the [LICENSE](LICENSE) file.
